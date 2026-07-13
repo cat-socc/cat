@@ -19,16 +19,11 @@ pip install -r requirements.txt
 
 The paper reproduction scripts for RangePut, Publish, and AGet are under `bench/`.
 
-```bash
-cd bench
-cat readme.md
-```
-
 The benchmark entry points are:
 
 ```bash
 CLEAR_S3=1 ./rangePut/rangeput.sh
-./publish/publish.sh
+FORCE_PREPARE_S3=1 ./publish/publish.sh
 CLEAR_S3=1 ./Aget/run_aget_repro.sh
 ```
 
