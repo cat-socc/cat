@@ -1,0 +1,8 @@
+# requirements.txt
+boto3[crt]
+fastapi
+uvicorn
+aiofiles
+aiohttp
+awscrt
+pydantic
